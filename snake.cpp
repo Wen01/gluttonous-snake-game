@@ -745,7 +745,6 @@ void eventLoop(XInfo &xinfo) {
 int main ( int argc, char *argv[] ) {
 	XInfo xInfo;
 
-	int test = "Hello World!";
 	if (argc == 3) {
 		FPS = atoi(argv[1]);
         inputSpeed = atoi(argv[2]);
